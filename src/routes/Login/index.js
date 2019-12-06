@@ -22,7 +22,8 @@ const imgs = [
 
 
 
-@withRouter @inject('appStore') @observer
+@withRouter @inject('appStore') 
+@observer
 class Login extends React.Component {
   state = {
     showBox: 'login',   //展示当前表单
