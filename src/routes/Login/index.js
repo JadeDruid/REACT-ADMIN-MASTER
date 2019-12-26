@@ -48,9 +48,9 @@ class Login extends React.Component {
   }
   //载入页面时的一些处理
   initPage = () => {
-    this.setState({
-      loading:true
-    })
+    // this.setState({
+    //   loading:true
+    // })
     this.props.appStore.initUsers()
     this.loadImageAsync(url).then(url=>{
       this.setState({
